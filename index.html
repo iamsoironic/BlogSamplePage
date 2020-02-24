@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://pcmrocks.org/wp-content/uploads/2018/03/insomnia-inc-audio-production-1.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 5px solid white;
+      border-radius: 40px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .me{
+      height: 200px;
+    }
+    button {
+      background-color: white;
+      color: blue;
+      border: 2px solid blue;
+      
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/arCVDKt.jpg">
+    <h1>The Music Connect</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">New Music</a></li>
+      <li><a href="#">Music Reviews</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>The New Age Music Industry</h2>
+    <p>There is a lot of opinions on where the music industry is headed. Lets talk about some of the history, and how the music industry has became oversaturated with the internet era. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Up and Coming Artist</h2>
+    <p>Lets talk about new up and coming artist in the industry. Who is hot, and who is not? We will love to here your opinion on some of the featured artist we will have weekly. Remember to keep it respectful!</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>The Foundation to Music Producton</h2>
+    <p>Lets explore what you need to become a music producer. We will discuss set ups for all different types of budgets. Remember it's the creativeness from your own mind that you have to tap into, the equipment is just the tools to get you there.</p>
+    <button>like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
